@@ -1,2 +1,2 @@
 # Hltv-DarkTheme
-Adds a dark theme to HLTV.org webpages
+A Tampermonkey Userscript that applies a dark theme to HLTV.org webpages.
