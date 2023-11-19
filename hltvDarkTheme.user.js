@@ -263,11 +263,22 @@ div.map-stats-infobox-maps:nth-of-type(n){background-color: #313131 !important;}
     head.appendChild(style);
 var profileLink = document.querySelector('a[href^="/profile/"]');
 var newLink = profileLink.cloneNode(true);
-
 newLink.className = "nav-link";
-
 var nav = document.querySelector('.user-wrap');
-nav.appendChild(newLink);
+                    var signout = document.createElement("a");
+         signout.href = "https://www.hltv.org/logout"
+      //   signout.className = "nav-link";
+        // signout.textContent="Sign Out";
+const imageUrl = 'https://i.imgur.com/7ZmqTOC.png';
+         signout.style.backgroundImage = `url(${imageUrl})`;
+            signout.style.backgroundSize = 'cover';
+    signout.style.backgroundPosition = 'center';
+    signout.style.backgroundRepeat = 'no-repeat';
+         signout.style.width="20px";
+          signout.style.height="20px";
+         signout.title="Sign Out"
+         nav.appendChild(newLink);
+        nav.appendChild(signout);
          }
 }
 addGlobalStyle();
