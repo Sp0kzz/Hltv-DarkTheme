@@ -278,7 +278,7 @@ const imageUrl = 'https://i.imgur.com/VO6dhZY.png';
     signout.style.backgroundRepeat = 'no-repeat';
          signout.style.width="15px";
           signout.style.height="15px";
-         signout.title="Sign Out"
+         signout.title="Sign Out";
          nav.appendChild(newLink);
         nav.appendChild(signout);
          }
