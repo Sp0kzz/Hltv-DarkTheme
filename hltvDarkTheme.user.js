@@ -271,13 +271,13 @@ var nav = document.querySelector('.user-wrap');
          signout.href = "https://www.hltv.org/logout"
       //   signout.className = "nav-link";
         // signout.textContent="Sign Out";
-const imageUrl = 'https://i.imgur.com/7ZmqTOC.png';
+const imageUrl = 'https://i.imgur.com/VO6dhZY.png';
          signout.style.backgroundImage = `url(${imageUrl})`;
             signout.style.backgroundSize = 'cover';
     signout.style.backgroundPosition = 'center';
     signout.style.backgroundRepeat = 'no-repeat';
-         signout.style.width="20px";
-          signout.style.height="20px";
+         signout.style.width="15px";
+          signout.style.height="15px";
          signout.title="Sign Out"
          nav.appendChild(newLink);
         nav.appendChild(signout);
