@@ -18,6 +18,7 @@ function addGlobalStyle() {
     var customStyles = `
     /* Your custom styles go here */
   .bg{display: none !important;}
+
   .kgN8P9bvyb2EqDJR{display: none !important;}
   .a-reset.thunderpick-firstcol-box.layout-1{display: none !important;}
  .horizontal-widget.melbet{display: none !important;}
@@ -256,6 +257,7 @@ div.map-stats-infobox-maps:nth-of-type(n){background-color: #313131 !important;}
 .navbar .nav-popup-elm:hover {background-color: #484848;}
 .navbar .nav-popup-elm .timezoneSelector {background-color: #404040;}
 .match-sidebar a:hover {background: #585858;}
+.navbell{z-index: 99 !important;}
 `;
     style.innerHTML = customStyles;
     head.appendChild(style);
@@ -264,12 +266,8 @@ var newLink = profileLink.cloneNode(true);
 
 newLink.className = "nav-link";
 
-var nav = document.querySelector('.nav-content');
+var nav = document.querySelector('.user-wrap');
 nav.appendChild(newLink);
          }
 }
-
-
-
 addGlobalStyle();
-
