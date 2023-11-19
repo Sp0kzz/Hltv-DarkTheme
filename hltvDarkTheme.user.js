@@ -22,6 +22,8 @@ function addGlobalStyle() {
   .kgN8P9bvyb2EqDJR{display: none !important;}
   .a-reset.thunderpick-firstcol-box.layout-1{display: none !important;}
  .horizontal-widget.melbet{display: none !important;}
+ .group-name.table-header{background-color: #313131 !important;}
+ .text-ellipsis.team{background-color: #313131 !important;}
   .matchover.star2-filter.match.teambox{background-color: #313131 !important;}
 .no-week{background-color: #313131 !important;}
 .text-ellipsis.past-matches-team{background-color: #313131 !important;}
