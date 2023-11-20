@@ -1,4 +1,4 @@
-[![picture](https://i.imgur.com/S8lYojE.png)]()
+[![picture](https://i.imgur.com/tEWTWNK.png)]()
 # Hltv-DarkTheme
 A Tampermonkey Userscript that applies a dark theme to HLTV.org webpages.
 
