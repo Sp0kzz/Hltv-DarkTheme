@@ -3,8 +3,8 @@
 A Tampermonkey Userscript that applies a dark theme to HLTV.org webpages.
 
 # How to install
-1.You need to install the Tampermonkey browser extension. You can find it for various browsers here:
-   - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+1.You need to install the Tampermonkey browser extension:
+   - [Tampermonkey for Chrome/Chromium based (Chrome,Edge,Brave,Opera)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
    - [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 2. [Click here](https://github.com/Sp0kzz/Hltv-DarkTheme/raw/main/hltvDarkTheme.user.js) to install the script.
