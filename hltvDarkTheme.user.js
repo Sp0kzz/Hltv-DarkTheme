@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HLTV dark theme
-// @version      0.1
+// @version      0.2
 // @description  Apply a real dark theme for HLTV.org instead of the ugly blue theme.
 // @run-at         document-start
 // @match        https://www.hltv.org/*
@@ -263,7 +263,7 @@ div.map-stats-infobox-maps:nth-of-type(n){background-color: #313131 !important;}
 `;
     style.innerHTML = customStyles;
     head.appendChild(style);
-var profileLink = document.querySelector('a[href^="/profile/"]');
+var profileLink = document.querySelector('#popupsettings .nav-popup-header .right');
 var newLink = profileLink.cloneNode(true);
 newLink.className = "nav-link";
 var nav = document.querySelector('.user-wrap');
@@ -279,7 +279,8 @@ const imageUrl = 'https://i.imgur.com/VO6dhZY.png';
          signout.style.width="15px";
           signout.style.height="15px";
          signout.title="Sign Out";
-         nav.appendChild(newLink);
+         if(profileLink.textContent != "Expand"){
+         nav.appendChild(newLink);}
         nav.appendChild(signout);
          }
 }
