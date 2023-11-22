@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HLTV dark theme
-// @version      0.2
+// @version      0.3
 // @description  Apply a real dark theme for HLTV.org instead of the ugly blue theme.
 // @run-at         document-start
 // @match        https://www.hltv.org/*
@@ -269,15 +269,7 @@ newLink.className = "nav-link";
 var nav = document.querySelector('.user-wrap');
                     var signout = document.createElement("a");
          signout.href = "https://www.hltv.org/logout"
-      //   signout.className = "nav-link";
-        // signout.textContent="Sign Out";
-const imageUrl = 'https://i.imgur.com/VO6dhZY.png';
-         signout.style.backgroundImage = `url(${imageUrl})`;
-            signout.style.backgroundSize = 'cover';
-    signout.style.backgroundPosition = 'center';
-    signout.style.backgroundRepeat = 'no-repeat';
-         signout.style.width="15px";
-          signout.style.height="15px";
+        signout.className = "fa fa-sign-out";
          signout.title="Sign Out";
          if(profileLink.textContent != "Expand"){
          nav.appendChild(newLink);}
