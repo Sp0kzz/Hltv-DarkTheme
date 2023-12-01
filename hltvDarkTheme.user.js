@@ -73,7 +73,7 @@ input.filter-date:nth-of-type(n){background-color: #313131 !important;}
 div.map-stats-infobox-maps:nth-of-type(n){background-color: #313131 !important;}
   .past-matches-headline{background-color: #313131 !important;}
     .settings-row{background-color: #313131 !important;}
- .navbar .user-wrap .navsearchicon  {background-color: #313131 !important;}
+ .navbar .user-wrap .navsearchicon  {background-color: #292929 !important;}
   .navbar .desktop-mode-con .toggleDesktopMode {background-color: #313131 !important;}
   .match-sidebar .small-event-box-con {background-color: #313131 !important;}
  .match-sidebar .otherMatch {background-color: #313131 !important;}
