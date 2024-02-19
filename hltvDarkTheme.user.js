@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HLTV dark theme
-// @version      0.3
+// @version      0.4
 // @description  Apply a real dark theme for HLTV.org instead of the ugly blue theme.
 // @run-at         document-start
 // @match        https://www.hltv.org/*
@@ -52,7 +52,9 @@ a.stats-quick-navigation:nth-of-type(n){background-color: #313131 !important;}
 .clearfix.padded-content{background-color: #313131 !important;}
 .playerCol{background-color: #313131 !important;}
 .teamCol{background-color: #313131 !important;}
-
+.bgPadding .bg-enabler-child.right {
+    right: 0 !important;
+}
 .guide-section{background-color: #313131 !important;}
 .scroll-container {background-image: none !important;}
 .live .matches-container .active{background-image: none !important;}
